@@ -1,16 +1,16 @@
-const { APP_URL } = process.env
+const { APP_URL } = process.env;
 
 module.exports = {
   rewrites() {
     return [
       {
-        source: '/app',
+        source: "/app",
         destination: `${APP_URL}/app`,
       },
       {
-        source: '/app/:path*',
+        source: "/app/:path*",
         destination: `${APP_URL}/app/:path*`,
       },
-    ]
+    ];
   },
-}
+};
