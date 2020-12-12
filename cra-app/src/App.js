@@ -5,6 +5,7 @@ import {
   Route,
   Redirect,
   Switch,
+  Link
 } from "react-router-dom";
 
 function App() {
@@ -18,16 +19,16 @@ function App() {
               <p>
                 Edit <code>src/App.js</code> and save to reload.
               </p>
-              <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Learn React
+              <a className="App-link" href="./">
+                Home
               </a>
+              <Link to="/test">Test</Link>
             </header>
           </div>
+        </Route>
+        <Route path="/test" exact>
+          <h1>TEST</h1>
+          <Link to="/">App Home</Link>
         </Route>
         <Redirect to="/" />
       </Switch>
