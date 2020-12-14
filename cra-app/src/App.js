@@ -37,3 +37,6 @@ function App() {
 }
 
 export default App;
+
+// && rm -rf build/app && mv build app && mkdir build && mv app build/app
+// "homepage": ".",
