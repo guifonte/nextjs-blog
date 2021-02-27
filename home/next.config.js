@@ -12,8 +12,9 @@ module.exports = {
         destination: "/:path*"
       },
       {
-        source: "/app/:path*",
-        destination: `${APP_URL}/index.html`,
+        source: "/app",
+        destination: `${APP_URL}`,
+        basePath: false
       },
     ];
   },
