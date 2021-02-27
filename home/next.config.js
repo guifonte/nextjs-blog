@@ -7,10 +7,10 @@ module.exports = {
       //   source: "/app",
       //   destination: `${APP_URL}/app/index.html`,
       // },
-      {
-        source: "/:path*",
-        destination: "/:path*"
-      },
+      // {
+      //   source: "/:path*",
+      //   destination: "/:path*"
+      // },
       {
         source: "/app",
         destination: `${APP_URL}`,
