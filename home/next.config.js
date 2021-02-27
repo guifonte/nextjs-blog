@@ -12,7 +12,7 @@ module.exports = {
       //   destination: "/:path*"
       // },
       {
-        source: "/app",
+        source: "/app/:path*",
         destination: `${APP_URL}/app`,
       },
     ];
