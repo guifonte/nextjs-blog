@@ -13,7 +13,7 @@ module.exports = {
       // },
       {
         source: "/app",
-        destination: `${APP_URL}/app/index.html`,
+        destination: `${APP_URL}/app`,
       },
     ];
   },
