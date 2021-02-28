@@ -10,7 +10,7 @@ import {
 
 function App() {
   return (
-    <Router basename="/app">
+    <Router>
       <Switch>
         <Route path="/" exact>
           <div className="App">
